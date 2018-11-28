@@ -15,7 +15,7 @@ namespace WebApplicationDockerized.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "Hello world" };
+            return new string[] { "Hello world2" };
         }
     }
 }
